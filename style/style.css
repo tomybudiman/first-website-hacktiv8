@@ -31,10 +31,15 @@ html, body {
       -moz-user-select: none;
       -webkit-user-select: none; }
     #header .header-title a:first-child {
-      font-size: 48px;
+      font-size: 8vw;
       font-weight: 300; }
     #header .header-title a:last-child {
-      font-size: 18px; }
+      font-size: 3.2vw; }
+    @media screen and (min-width: 635px) {
+      #header .header-title a:first-child {
+        font-size: 50px; }
+      #header .header-title a:last-child {
+        font-size: 20px; } }
     #header .header-title hr {
       width: 70%;
       height: 2px;
