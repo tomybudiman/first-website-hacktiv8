@@ -48,7 +48,11 @@ html, body {
       left: -50px;
       position: absolute;
       background-color: #FFFFFF;
-      background: linear-gradient(to right, transparent, #FFFFFF); }
+      background: #FFFFFF;
+      background: linear-gradient(to right, transparent, #FFFFFF);
+      background: -o-linear-gradient(right, transparent, #FFFFFF);
+      background: -moz-linear-gradient(right, transparent, #FFFFFF);
+      background: -webkit-linear-gradient(left, transparent, #FFFFFF); }
     #header .header-title hr::after {
       content: "";
       height: 2px;
@@ -56,7 +60,11 @@ html, body {
       right: -50px;
       position: absolute;
       background-color: #FFFFFF;
-      background: linear-gradient(to right, #FFFFFF, transparent); }
+      background: #FFFFFF;
+      background: linear-gradient(to right, #FFFFFF, transparent);
+      background: -o-linear-gradient(right, #FFFFFF, transparent);
+      background: -moz-linear-gradient(right, #FFFFFF, transparent);
+      background: -webkit-linear-gradient(left, #FFFFFF, transparent); }
 
 #header::before {
   content: "";
